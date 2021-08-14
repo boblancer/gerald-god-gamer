@@ -12,9 +12,9 @@ Public methods:
 <%@ page import="java.sql.*"%>
 <%!
 	// User id, password, and server information
-	private String url = "jdbc:sqlserver://sql04.ok.ubc.ca:1433;DatabaseName=db_rlawrenc;";
-	private String uid = "rlawrenc";
-	private String pw = "test";
+	private String url = "jdbc:postgres://ec2-3-233-100-43.compute-1.amazonaws.com:5432;DatabaseName = dacukggvbut7ro;";
+	private String uid = "ahlgmclpelitgg";
+	private String pw = "6cd1858906becec5bef8866422fe434971a1faf7e4d31e5c0434640b623196a7";
 
 	// Connection
 	private Connection con = null;
